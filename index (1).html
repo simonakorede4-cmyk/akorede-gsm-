@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ets Akorede GSM</title>
+<meta name="description" content="Guides numériques : business en ligne, vidéos IA avec outils gratuits, 50 prompts pour vidéos IA. Commande par WhatsApp.">
+<style>
+:root{--bg:#0b1020;--bg2:#121a33;--carte:#18224a;--acc:#4da3ff;--acc2:#7c5cff;--jaune:#ffc83d;--txt:#eef2ff;--mut:#a9b4d6}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--txt);line-height:1.55}
+.wrap{max-width:1000px;margin:0 auto;padding:0 16px}
+header{position:sticky;top:0;z-index:10;background:rgba(11,16,32,.92);backdrop-filter:blur(8px);border-bottom:1px solid #22305f}
+header .wrap{display:flex;justify-content:space-between;align-items:center;padding:12px 16px}
+.logo{font-weight:800}.logo span{color:var(--acc)}
+.btn{display:inline-block;padding:13px 22px;border-radius:12px;text-decoration:none;font-weight:700;border:0;cursor:pointer;font:inherit;font-weight:700}
+.btn.p{background:linear-gradient(90deg,var(--acc),var(--acc2));color:#fff}
+.btn.s{border:2px solid var(--acc);color:var(--acc);background:transparent}
+.btn.sm{padding:8px 14px;font-size:.9rem}
+.hero{padding:54px 0 40px;background:radial-gradient(circle at 80% 0,#27357a 0,transparent 55%)}
+.hero h1{font-size:clamp(1.9rem,6.5vw,3rem);line-height:1.12;margin-bottom:14px}
+.hero h1 em{font-style:normal;color:var(--jaune)}
+.hero p{color:var(--mut);max-width:560px;margin-bottom:22px;font-size:1.05rem}
+.btns{display:flex;flex-wrap:wrap;gap:10px}
+.badges{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+.badges span{background:#1b2658;padding:6px 12px;border-radius:999px;font-size:.85rem;color:var(--mut)}
+section{padding:44px 0}
+h2{font-size:1.6rem;margin-bottom:6px}
+.sub{color:var(--mut);margin-bottom:24px}
+.prods{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(270px,1fr))}
+.prod{background:var(--carte);border-radius:18px;padding:18px;display:flex;flex-direction:column;gap:12px;border:1px solid #2a3a7a}
+.cover{aspect-ratio:3/4;border-radius:12px;padding:18px;display:flex;flex-direction:column;justify-content:space-between;box-shadow:0 10px 24px rgba(0,0,0,.4);position:relative;overflow:hidden}
+.cover small{letter-spacing:.14em;text-transform:uppercase;font-size:.7rem;opacity:.85}
+.cover b{font-size:1.45rem;line-height:1.1}
+.cover i{font-style:normal;font-size:.8rem;opacity:.9}
+.cover:after{content:"";position:absolute;right:-40px;bottom:-40px;width:150px;height:150px;border-radius:50%;background:rgba(255,255,255,.12)}
+.cover-img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:12px;box-shadow:0 10px 24px rgba(0,0,0,.4);display:block}
+.c1{background:linear-gradient(160deg,#0f7a5a,#0a3d4d)}
+.c2{background:linear-gradient(160deg,#7c5cff,#2a1a6e)}
+.c3{background:linear-gradient(160deg,#ff8a3d,#8a2a4a)}
+.prod h3{font-size:1.2rem}
+.prod p{color:var(--mut);font-size:.95rem}
+.prod ul{list-style:none;color:var(--mut);font-size:.92rem;display:grid;gap:4px}
+.prod ul li:before{content:"✓ ";color:var(--jaune)}
+.prix{font-weight:800;font-size:1.2rem}
+.todo{background:#4a3d00;border:1px dashed var(--jaune);padding:1px 6px;border-radius:6px;font-size:.85em;color:#ffe9a6}
+.alt{background:var(--bg2)}
+.steps{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));counter-reset:s}
+.step{background:var(--carte);border-radius:16px;padding:20px}
+.step:before{counter-increment:s;content:counter(s);display:inline-flex;width:30px;height:30px;border-radius:50%;background:var(--acc);color:#06122e;align-items:center;justify-content:center;font-weight:800;margin-bottom:8px}
+details{background:var(--carte);border-radius:12px;padding:14px 16px;margin-bottom:10px}
+summary{cursor:pointer;font-weight:700}
+details p{color:var(--mut);margin-top:8px}
+a{color:var(--acc)}
+footer{padding:26px 0;text-align:center;color:var(--mut);font-size:.9rem;border-top:1px solid #22305f}
+.wa{position:fixed;right:16px;bottom:16px;background:#25d366;color:#fff;padding:13px 18px;border-radius:999px;text-decoration:none;font-weight:700;box-shadow:0 4px 12px rgba(0,0,0,.4);z-index:20}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="logo">Ets Akorede <span>GSM</span></div>
+    <a class="btn p sm" href="#produits">Voir les produits</a>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap">
+    <h1>Lancez votre business en ligne et créez des <em>vidéos IA</em> sans dépenser une fortune.</h1>
+    <p>Des guides numériques simples, pensés pour démarrer, avec des outils gratuits. Commandez par WhatsApp et recevez votre produit en version numérique.</p>
+    <div class="btns">
+      <a class="btn p" href="#produits">Découvrir les guides</a>
+      <a class="btn s" href="https://wa.me/2290167633656?text=Bonjour%2C%20je%20souhaite%20en%20savoir%20plus%20sur%20vos%20guides." target="_blank" rel="noopener">Poser une question</a>
+    </div>
+    <div class="badges"><span>📱 Lisible sur téléphone</span><span>⚡ Format numérique (PDF)</span><span>💬 Commande via WhatsApp</span><span>💳 Mobile Money · Moov Money · Visa</span></div>
+  </div>
+</div>
+
+<section id="produits">
+  <div class="wrap">
+    <h2>Nos produits digitaux</h2>
+    <p class="sub">Choisissez le guide qui correspond à votre objectif.</p>
+    <div class="prods">
+
+      <div class="prod">
+        <div class="cover c1"><small>Guide complet</small><b>Guide des Business en ligne</b><i>Démarrez et vendez sur internet</i></div>
+        <h3>Guide des Business en ligne</h3>
+        <p>Comprendre les bases pour lancer une activité sur internet et chercher vos premiers clients.</p>
+        <ul><li>Choisir une idée de business</li><li>Présenter et vendre son offre</li><li>Attirer des clients en ligne</li></ul>
+        <div class="prix">6 000 FCFA</div>
+        <a class="btn p" href="https://wa.me/2290167633656?text=Bonjour%2C%20je%20veux%20commander%20le%20Guide%20des%20Business%20en%20ligne." target="_blank" rel="noopener">Commander sur WhatsApp</a>
+      </div>
+
+      <div class="prod">
+        <img class="cover-img" src="cover-videos-ia.jpg" alt="Guide de création des vidéos IA avec les outils gratuits, sans crédits">
+        <h3>Générer des vidéos IA avec des outils gratuits</h3>
+        <p>Apprenez à créer des vidéos avec l'intelligence artificielle sans payer d'abonnement.</p>
+        <ul><li>Outils gratuits à utiliser</li><li>Méthode pas à pas</li><li>Conseils pour de meilleurs résultats</li></ul>
+        <div class="prix">3 000 FCFA</div>
+        <a class="btn p" href="https://wa.me/2290167633656?text=Bonjour%2C%20je%20veux%20commander%20le%20guide%20Vid%C3%A9os%20IA%20avec%20outils%20gratuits." target="_blank" rel="noopener">Commander sur WhatsApp</a>
+      </div>
+
+      <div class="prod">
+        <div class="cover c3"><small>Pack de prompts</small><b>50 Prompts vidéos IA</b><i>Copiez, collez, créez</i></div>
+        <h3>50 prompts pour la génération de vidéos IA</h3>
+        <p>Une collection de 50 prompts prêts à utiliser pour gagner du temps dans vos créations.</p>
+        <ul><li>50 prompts prêts à copier</li><li>Adaptables à vos idées</li><li>Gain de temps immédiat</li></ul>
+        <div class="prix">1 500 FCFA</div>
+        <a class="btn p" href="https://wa.me/2290167633656?text=Bonjour%2C%20je%20veux%20commander%20les%2050%20prompts%20pour%20vid%C3%A9os%20IA." target="_blank" rel="noopener">Commander sur WhatsApp</a>
+      </div>
+
+    </div>
+    <p class="sub" style="margin-top:16px">📄 Chaque guide compte jusqu'à 10 pages : simple, clair et allant droit à l'essentiel.</p>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <h2>Comment commander ?</h2>
+    <p class="sub">Simple et rapide, en 3 étapes.</p>
+    <div class="steps">
+      <div class="step"><b>Choisissez</b><br>Cliquez sur « Commander » sous le produit voulu.</div>
+      <div class="step"><b>Payez</b><br>Paiement par Mobile Money, Moov Money ou carte Visa. Nous vous envoyons les détails sur WhatsApp.</div>
+      <div class="step"><b>Recevez</b><br>Votre guide numérique vous est envoyé.</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Questions fréquentes</h2>
+    <p class="sub">Tout ce qu'il faut savoir avant d'acheter.</p>
+    <details><summary>Quels sont les prix ?</summary><p>Guide des Business en ligne : 6 000 FCFA. Guide pour générer des vidéos IA : 3 000 FCFA. 50 prompts pour vidéos IA : 1 500 FCFA.</p></details>
+    <details><summary>Comment passer commande ?</summary><p>Cliquez sur « Commander sur WhatsApp » sous le produit de votre choix. Un message est prêt, il vous suffit de l'envoyer.</p></details>
+    <details><summary>Combien de pages font les guides ?</summary><p>Chaque guide compte jusqu'à 10 pages, pour aller droit à l'essentiel et se lire facilement sur téléphone.</p></details>
+    <details><summary>Quels moyens de paiement acceptez-vous ?</summary><p>Mobile Money, Moov Money et carte Visa.</p></details>
+    <details><summary>Puis-je acheter un seul guide ?</summary><p>Oui, chaque produit se vend séparément. Vous choisissez uniquement ce dont vous avez besoin.</p></details>
+    <details><summary>Les outils présentés dans le guide vidéos IA sont-ils gratuits ?</summary><p>Le guide présente des outils utilisables gratuitement. Les offres des outils peuvent évoluer avec le temps, c'est pourquoi le guide montre comment bien les utiliser.</p></details>
+    <details><summary>De quoi ai-je besoin pour utiliser les guides ?</summary><p>Un téléphone ou un ordinateur avec une connexion internet suffit pour lire les guides et utiliser les outils en ligne.</p></details>
+    <details><summary>Combien de temps pour recevoir mon guide ?</summary><p><span class="todo">À compléter : délai de livraison, par exemple « quelques minutes après confirmation du paiement ».</span></p></details>
+    <details><summary>Comment vous contacter ?</summary><p>Écrivez-nous sur WhatsApp au +229 01 67 63 36 56 ou appelez le +229 01 63 42 70 57.</p></details>
+    <details><summary>Faut-il de l'expérience ?</summary><p>Les guides sont écrits pour les débutants. <span class="todo">À confirmer selon votre contenu.</span></p></details>
+    <details><summary>Comment je reçois mon guide ?</summary><p>Après le paiement, il vous est envoyé en format numérique. <span class="todo">À préciser : WhatsApp, e-mail ou lien de téléchargement.</span></p></details>
+    <details><summary>Puis-je le lire sur mon téléphone ?</summary><p>Oui, un PDF se lit sur téléphone, tablette ou ordinateur.</p></details>
+    <details><summary>Y a-t-il une garantie ou un remboursement ?</summary><p>Le montant payé n'est pas remboursable. Veuillez bien vérifier votre choix avant de passer commande. En cas de problème, notre service client est là pour vous aider : écrivez-nous sur WhatsApp au +229 01 67 63 36 56.</p></details>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <h2>Une question ?</h2>
+    <p class="sub">Écrivez-nous, nous répondons vite.</p>
+    <div class="btns">
+      <a class="btn p" href="https://wa.me/2290167633656" target="_blank" rel="noopener">💬 WhatsApp : +229 01 67 63 36 56</a>
+      <a class="btn s" href="tel:+2290163427057">📞 Appeler : +229 01 63 42 70 57</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">© <span id="an"></span> Ets Akorede GSM – Produits numériques</div>
+</footer>
+
+<a class="wa" href="https://wa.me/2290167633656" target="_blank" rel="noopener">💬 WhatsApp</a>
+<script>document.getElementById('an').textContent=new Date().getFullYear();</script>
+</body>
+</html>
